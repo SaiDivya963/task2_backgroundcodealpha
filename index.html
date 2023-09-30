@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Background Generator Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  </head>
+  <body id="gradient">
+
+    <div id="container" >
+      <h1>Background Generator Website</h1>
+      <h1>Background Generator Website</h1>
+      <h1>Background Generator Website</h1> 
+      <h1>Background Generator Website</h1>  
+    </div>
+    <label for="colors">Pick colors</label>
+    <input class="color1" type="color" value="#1d3c45">
+    <input class="color2" type="color" value="#d2601a">
+    <input class="color3" type="color" value="#00539cff">
+    <input class="color4" type="color" value="#322514">
+    <label for="property">CSS Background property</label>
+
+    <div class="linear-gradient">
+
+        <p id="css-property">linear-gradient(to right, rgb(250, 23, 23) , rgb(255, 255, 37) ,    rgb(255, 23, 67) , rgb(259, 250, 23)); </p>
+        <div class="tooltip">
+          <button onclick="copyFunction()" ><span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+            <i class="fas fa-2x fa-copy"></i>
+          </button>
+        </div>
+         
+    </div>
+   
+
+    <script type="text/javascript" src="app.js">
+
+    </script>
+
+  </body>
+</html>
